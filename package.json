@@ -1,10 +1,10 @@
 {
   "name": "semantic-versioning",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bump": "standard-version --skip.tag",
+    "bump": "standard-version",
     "release": "git flow release start `sh scripts/nextver.sh`",
     "publish": "git flow release finish `sh scripts/ver.sh`"
   },
